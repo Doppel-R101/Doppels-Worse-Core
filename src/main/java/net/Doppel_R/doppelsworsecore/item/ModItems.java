@@ -17,7 +17,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ExplorationStar = ITEMS.register("exploration_star_part",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> MagicalStar = ITEMS.register("magical_star_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FarmStar = ITEMS.register("farming_star_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HunterStar = ITEMS.register("hunter_star_part",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

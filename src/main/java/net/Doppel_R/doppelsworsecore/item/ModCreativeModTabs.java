@@ -20,6 +20,9 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.StarCore.get());
                         output.accept(ModItems.DimensionalStar.get());
                         output.accept(ModItems.ExplorationStar.get());
+                        output.accept(ModItems.MagicalStar.get());
+                        output.accept(ModItems.FarmStar.get());
+                        output.accept(ModItems.HunterStar.get());
                     })
                     .build());
 
