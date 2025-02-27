@@ -23,17 +23,17 @@ public class doppelsworsecore {
     public static final String MOD_ID = "doppelsworsecore";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public doppelsworsecore(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public doppelsworsecore() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event){
