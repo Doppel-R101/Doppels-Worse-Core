@@ -1,4 +1,4 @@
-package net.Doppel_R.DoppelsWorseCore;
+package net.Doppel_R.doppelsworsecore;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
