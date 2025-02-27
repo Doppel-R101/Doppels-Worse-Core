@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "DoppelsWorseCore:item/star_core"
+    "layer0": "doppelsworsecore:item/star_core"
   }
 }

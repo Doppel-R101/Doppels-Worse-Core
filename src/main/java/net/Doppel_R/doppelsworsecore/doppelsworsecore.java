@@ -17,15 +17,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(DoppelsWorseCore.MOD_ID)
-public class DoppelsWorseCore
+@Mod(doppelsworsecore.MOD_ID)
+public class doppelsworsecore
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "doppels_worse_core";
+    public static final String MOD_ID = "doppelsworsecore";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public DoppelsWorseCore(FMLJavaModLoadingContext context)
+    public doppelsworsecore(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
 
