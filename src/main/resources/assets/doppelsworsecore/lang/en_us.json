@@ -1,3 +1,6 @@
 {
-  "item.doppelsworsecore.star_core": "Star Core"
+  "item.doppelsworsecore.star_core": "Star Core",
+  "item.doppelsworsecore.dimensional_star_part": "Dimensional Star Part",
+  "item.doppelsworsecore.exploration_star_part": "Exploration Star Part",
+  "creativetab.worse_core_tab": "Worse Core Items"
 }

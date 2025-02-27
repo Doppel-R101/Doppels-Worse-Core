@@ -13,6 +13,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> StarCore = ITEMS.register("star_core",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DimensionalStar = ITEMS.register("dimensional_star_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ExplorationStar = ITEMS.register("exploration_star_part",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
